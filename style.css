@@ -1,0 +1,176 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "montserrat";
+}
+
+html,body{
+    width: 100%;
+    height: 100%;
+}
+
+#background{
+    display: flex;
+    overflow:hidden;
+    width: 100%;
+    height: 100%;
+    background-color: aliceblue;
+}
+
+#left{
+    width: 50%;
+    height: 100%;
+    background-color: rgba(56, 56, 56, 0.877);
+}
+
+#bar{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0px;
+    width: 8%;
+    height: 100%;
+    color: #fff;
+    cursor: pointer;
+    /* background-color: white; */
+}
+
+#bar h2{
+    width: 400px;
+    font-size: 40px;
+    color:rgba(112, 112, 112, 0.918) ;
+    transform: rotate(-90deg);
+}
+
+#bar #social{
+    width: 90px;
+    color: #f3f3f3;
+    cursor: pointer;
+    transform: rotate(-90deg);
+}
+
+#social i{
+    margin-left: 9px;
+}
+
+#topbar{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    width: 46%;
+    height: 12%;
+    margin-left: 4%;
+    /* background-color: #fff;   */
+}
+
+#topbar h2{
+    font-size: 20px;
+    /* font-family: "playfair display"; */
+    margin-left: 20px;
+    color: #fff;
+}
+
+#mainimg{
+    margin-left: 5.01%;
+    margin-top: 5.4%;
+    width: 45%;
+    height: 88.5%;
+    position: absolute;
+    background-color: #fff;
+    background-size: cover;
+    background-position: center;
+    background-image: url(/images/photo-1564585530977-a99e9ff883fe.jpg);
+}
+
+#right{
+    width: 50%;
+    height: 100%;
+    background-color: #fff;
+}
+
+
+#rightbar{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 11.3%;
+    display: flex;
+    align-items: center;
+    padding: 30px;
+    background-color: #f3f3f3;
+}
+
+#rightbar a{
+    text-transform: uppercase;
+    text-decoration:none;
+    color:#000;
+    font-weight: 700px;
+    letter-spacing: 2px;
+    margin-left: 30px;
+}
+
+#searchmenu i{
+    margin-left: 10px;
+}
+
+#right #headline{
+    margin-left: 60px;
+    margin-top: 100px;
+    font-size: 25px;
+    text-transform: capitalize;
+}
+
+#right p{
+    width: 50%;
+    margin-left: 25%;
+    margin-top: -40px;
+}
+
+#button{
+    /* background-color: red; */
+    width: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-left: 25%;
+    margin-top: 20px;
+    text-transform: uppercase;
+}
+
+#buttom i{
+    margin-right: 20px;
+}
+
+
+#slider{
+    display: flex;
+    width: 100%;
+    height: 30%;
+    margin-top: 40px;
+    background-color: rgba(112, 112, 112, 0.918);
+}
+
+
+.img{
+    width: 30%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    background-image: url(./images/miniature-dog-breeds-pug-1574134213.jpg);
+    background-color: #000;
+}
+
+#slider .img:nth-child(2){
+    background-image: url(./images/sad_pug_face_by_padraiginsart_d49amwa-fullview.jpg);
+}
+
+#slider a{
+    width: 150px;
+    margin-top: 50px;
+    margin-left: 70px;
+    font-size: 23px;
+    color: #fff;
+}
